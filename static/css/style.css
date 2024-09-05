@@ -1,0 +1,82 @@
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+}
+
+.navbar-light .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.formBox {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 50px !important;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.inputBox {
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 100%;
+    background: #00bcd4;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 24px;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 2px solid rgba(0, 0, 0, .5);
+}
+
+.inputText {
+    position: absolute;
+    line-height: 50px;
+    font-size: 24px;
+    transition: .5s;
+    opacity: 0.5;
+}
+
+.focus .inputText {
+    transform: translateY(-30px);
+    font-size: 18px;
+    opacity: 1;
+    color: #00bcd4;
+}
+
+.btn_train {
+    width: 100%;
+    background: red;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 24px;
+}
