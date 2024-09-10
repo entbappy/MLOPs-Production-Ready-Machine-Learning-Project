@@ -97,6 +97,7 @@ class USvisaClassifier:
         except Exception as e:
             raise USvisaException(e, sys)
 
+
     def predict(self, dataframe) -> str:
         """
         This is the method of USvisaClassifier
