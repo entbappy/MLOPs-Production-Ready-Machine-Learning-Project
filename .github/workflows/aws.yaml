@@ -2,14 +2,8 @@ name: Deploy Application Docker Image to EC2 instance
 
 on:
   push:
-    branches:
-      - main
-    paths-ignore:
-      - 'README.md'
+    branches: [main]
 
-permissions:
-  id-token: write
-  contents: read
 
 jobs:
   Continuous-Integration:
